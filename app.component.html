@@ -1,0 +1,4 @@
+<app-header></app-header>
+<app-add></app-add>
+<app-my-list *ngFor= "let myDoListElementInArray of myDoLists"
+[myList]="myDoListElementInArray"></app-my-list>
